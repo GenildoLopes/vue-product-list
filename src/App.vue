@@ -25,7 +25,6 @@
 
         <!-- Modal -->
         <Modal />
-
       </v-row>
     </v-container>
   </v-app>
@@ -53,16 +52,10 @@ export default {
   },
   data() {
     return {
-      products: {
-        name: "",
-        description: "",
-        price: "",
-      },
-
       newProduct: {
-        name: "",
-        description: "",
-        price: "",
+        name: "Short",
+        description: "Blabblala",
+        price: "20"
       }
     }
   },
